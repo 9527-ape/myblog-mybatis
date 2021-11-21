@@ -6,10 +6,6 @@ import java.util.List;
 
 /**
  * @Description:
- * @Author: ONESTAR
- * @Date: Created in 1:03 2020/4/4
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
  */
 public class DetailedBlog {
 

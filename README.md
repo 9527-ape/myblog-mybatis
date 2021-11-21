@@ -1,39 +1,7 @@
 # myblog-mybaits
 个人博客系统（SpringBoot+Mybatis）
 
-博客地址：https://onestar.newstar.net.cn/
-
-**使用该源码希望能够注明原博客以及源码出处，并禁止商用，谢谢！**
-
-### 一、开发文档
-
-1、[【SpringBoot搭建个人博客】- 前端页面展示（一）](https://onestar.newstar.net.cn/blog/37)
-
-2、[【SpringBoot搭建个人博客】- 技术需求（二）](https://onestar.newstar.net.cn/blog/38)
-
-3、[【SpringBoot搭建个人博客】- 框架搭建（三）](https://onestar.newstar.net.cn/blog/41)
-
-4、[【SpringBoot搭建个人博客】- 后台登录（四）](https://onestar.newstar.net.cn/blog/42)
-
-5、[【SpringBoot搭建个人博客】- 实体类构建（五）](https://onestar.newstar.net.cn/blog/43)
-
-6、[【SpringBoot搭建个人博客】- 分类管理（六）](https://onestar.newstar.net.cn/blog/44)
-
-7、[【SpringBoot搭建个人博客】- 博客管理（七）](https://onestar.newstar.net.cn/blog/46)
-
-8、[【SpringBoot搭建个人博客】- 友链管理（八）](https://onestar.newstar.net.cn/blog/47)
-
-9、[【SpringBoot搭建个人博客】- 相册管理（九）](https://onestar.newstar.net.cn/blog/48)
-
-10、[【SpringBoot搭建个人博客】- 博客首页显示（十）](https://onestar.newstar.net.cn/blog/49)
-
-11、[【SpringBoot搭建个人博客】- 博客详情页面显示（十一）](https://onestar.newstar.net.cn/blog/50)
-
-12、[【SpringBoot搭建个人博客】- 其他页面显示（十二）](https://onestar.newstar.net.cn/blog/51)
-
-13、[【SpringBoot搭建个人博客】- 线上部署（十三）](https://onestar.newstar.net.cn/blog/52)
-
-### 二、技术栈
+### 技术栈
 #### 1.前端
 - JS框架：JQuery
 - CSS框架：[Semantic UI官网](https://semantic-ui.com/)
@@ -51,13 +19,12 @@
 - 模板框架：Thymeleaf
 - 分页插件：PageHelper
 - 加密：MD5加密
-- 运行环境：腾讯云Centos7
 
 #### 3.数据库
 - MySQL 5.7
 
 ### 三、功能需求
-因为是个人博客，所以没有做用户权限管理，只是简单的区分了一下普通用户和管理员用户，这里就根据普通用户和管理员用户来讲述功能需求，其实从上一篇博文的前端页面就能大致的看出需求了
+因为是个人博客，所以没有做用户权限管理，只是简单的区分了一下普通用户和管理员用户
 
 #### 1.普通用户
 - 查看文章信息：文章列表、推荐文章、文章标题、文章内容、发布时间、访问量以及评论等信息
@@ -79,8 +46,6 @@
 - 消息管理：登录后恢复评论留言会显示栈主的头像信息，并能显示删除消息按键，可以对消息进行删除
 
 ### 四、数据库设计
-> 由于博主最开始是使用jpa作为持久层开发此博客的，数据表是由jpa框架自动生成的，在使用mybatis为持久层的时候就沿用了jpa生成的数据库，但是对评论表和留言表进行了改动，如果同样是先用jpa，再用mybatis开发的伙伴这里要注意一下，如果直接使用mybatis开发的则可以忽略
-
 #### 1.数据表
 - 博客数据表：t_blog
 - 分类数据表：t_type
@@ -314,8 +279,3 @@ CREATE TABLE `t_user`  (
 SET FOREIGN_KEY_CHECKS = 1;
 
 ```
-欢迎关注公众号：
-
-![oneStar](https://images.newstar.net.cn/img/oneStar.jpg)
-
-博客地址：https://onestar.newstar.net.cn/

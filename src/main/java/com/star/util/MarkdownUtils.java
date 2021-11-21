@@ -16,10 +16,6 @@ import java.util.*;
 
 /**
  * @Description: Markdown编辑器
- * @Author: ONESTAR
- * @Date: Created in 13:24 2020/4/5
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
  */
 public class MarkdownUtils {
 
@@ -85,7 +81,7 @@ public class MarkdownUtils {
                 "| 斯维尔多  | 士大夫  | f啊    |\n" +
                 "| 阿什顿发  | 非固定杆 | 撒阿什顿发 |\n" +
                 "\n";
-        String a = "[ONESTAR](http://122.51.28.187:8080/)";
+        String a = "[Blog](http://localhost:8080/)";
         System.out.println(markdownToHtmlExtensions(a));
     }
 

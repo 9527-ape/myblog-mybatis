@@ -14,10 +14,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  * @Description: 用户登录控制器
- * @Author: ONESTAR
- * @Date: Created in 9:54 2020/3/27
- * @QQ群: 530311074
- * @URL: https://onestar.newstar.net.cn/
  */
 @Controller
 @RequestMapping("/admin")
@@ -28,7 +24,7 @@ public class LoginController {
 
     /**
      * @Description: 跳转登录页面
-     * @Auther: ONESTAR
+     * @Auther: Blog
      * @Date: 9:57 2020/3/27
      * @Param:
      * @Return: 返回登录页面
@@ -40,7 +36,7 @@ public class LoginController {
 
     /**
      * @Description: 登录校验
-     * @Auther: ONESTAR
+     * @Auther: Blog
      * @Date: 10:04 2020/3/27 
      * @Param: username:用户名
      * @Param: password:密码
@@ -66,7 +62,7 @@ public class LoginController {
 
     /**
      * @Description: 注销
-     * @Auther: ONESTAR
+     * @Auther: Blog
      * @Date: 10:15 2020/3/27
      * @Param: session:session域
      * @Return: 返回登录页面
